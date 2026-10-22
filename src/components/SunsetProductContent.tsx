@@ -23,18 +23,18 @@ const benefits = [
 ];
 
 export default function SunsetProductContent() {
-  const productImage = "/images/google-sunset-tee.jpg";
+  const productImage = `${import.meta.env.BASE_URL}google-island-sunset-tee.webp`;
 
-  // Replace this with the verified Google Merchandise Store
-  // product URL before publishing.
-  const productUrl = "#shop";
+  
+  
+  const productUrl = 'https://shop.merch.google/product/apparel/google-island-sunset-womens-tee-ggoegxxx2346?itemListName=Search';
 
   return (
     <div className="w-full overflow-hidden bg-[#fffaf5] text-[#29251f]">
       {/* Hero */}
       <section
-        id="shop"
-        className="mx-auto grid min-h-[75vh] max-w-7xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:px-12 lg:py-24"
+        id="the-design"
+        className="mx-auto grid max-w-7xl items-center gap-10 px-6 py-20 md:px-12 md:py-28 lg:grid-cols-2"
       >
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -46,12 +46,12 @@ export default function SunsetProductContent() {
             The Spring / Summer Edit
           </p>
 
-          <h1 className="max-w-xl text-5xl font-medium leading-[1.08] tracking-tight md:text-6xl lg:text-7xl">
+          <h2 className="max-w-xl text-4xl font-medium leading-[1.08] tracking-tight md:text-5xl lg:text-6xl">
             Your everyday tee.
             <span className="mt-2 block text-[#c77989]">
               Your summer state of mind.
             </span>
-          </h1>
+          </h2>
 
           <p className="mt-6 max-w-lg text-base leading-7 text-[#6d655d] md:text-lg">
             Meet the Google Sunset Pink Tee — a laid-back essential for
@@ -67,7 +67,7 @@ export default function SunsetProductContent() {
             </a>
 
             <a
-              href="#details"
+              href="#the-details"
               className="inline-flex items-center justify-center rounded-full border border-[#d8c9bd] px-7 py-4 text-sm font-medium transition hover:bg-[#f4e6e3]"
             >
               Discover the Details
