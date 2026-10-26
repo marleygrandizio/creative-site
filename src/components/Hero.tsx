@@ -21,6 +21,11 @@ export default function Hero() {
         <motion.a className="pill-button hero-button" href="#the-design" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.55, ease: 'easeOut' }} whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
           Discover the tee <span aria-hidden="true">↓</span>
         </motion.a>
+        <div className="mt-6 flex flex-wrap items-center gap-3" aria-label="Google social links">
+          <span className="eyebrow text-white">Follow Google</span>
+          <a href="https://www.instagram.com/google/?hl=en" target="_blank" rel="noreferrer" className="rounded-full border border-white/70 bg-white px-5 py-3 text-sm font-semibold text-[#29251f] shadow-lg transition hover:bg-[#f4e6e3]">Instagram ↗</a>
+          <a href="https://www.linkedin.com/company/google/" target="_blank" rel="noreferrer" className="rounded-full border border-white/70 bg-white px-5 py-3 text-sm font-semibold text-[#29251f] shadow-lg transition hover:bg-[#f4e6e3]">LinkedIn ↗</a>
+        </div>
       </div>
 
       <motion.div className="hero-footer" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.75, ease: 'easeOut' }}>
