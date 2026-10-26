@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 const navLinks = [
   { label: 'The Design', target: '#the-design' },
   { label: 'The Details', target: '#the-details' },
-  { label: 'About', target: '#about' },
+  { label: 'About', target: '#story' },
 ]
 
 export default function Navbar() {
