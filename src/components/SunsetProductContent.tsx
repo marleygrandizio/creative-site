@@ -23,7 +23,7 @@ const benefits = [
 ];
 
 export default function SunsetProductContent() {
-  const productImage = `${import.meta.env.BASE_URL}google-island-sunset-tee.webp`;
+  const productImage = `${import.meta.env.BASE_URL}shirt%202.jpg`;
 
   
   
@@ -212,6 +212,15 @@ export default function SunsetProductContent() {
         >
           Shop the Sunset Pink Tee <span className="ml-3">↗</span>
         </a>
+      </section>
+
+      {/* Google social links */}
+      <section className="border-t border-[#eaded4] px-6 py-10 text-center" aria-label="Google social links">
+        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#a65e6e]">Follow Google</p>
+        <div className="mt-4 flex justify-center gap-6 text-sm">
+          <a href="https://www.instagram.com/google/?hl=en" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:text-[#a65e6e]">Instagram ↗</a>
+          <a href="https://www.linkedin.com/company/google/" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:text-[#a65e6e]">LinkedIn ↗</a>
+        </div>
       </section>
     </div>
   );
