@@ -90,11 +90,18 @@ export default function SunsetProductContent() {
               Sunset essentials
             </div>
 
-            <img
-              src={productImage}
-              alt="Google Sunset Pink Tee, the original Google Island Sunset Tee"
-              className="aspect-[4/5] w-full rounded-2xl object-contain"
-            />
+            <div className="grid gap-4 sm:grid-cols-2">
+              <img
+                src={productImage}
+                alt="Google Sunset Pink Tee, front detail from the supplied photo"
+                className="aspect-[4/5] w-full rounded-2xl object-contain"
+              />
+              <img
+                src={`${import.meta.env.BASE_URL}google-island-sunset-tee.webp`}
+                alt="Google Island Sunset Tee product photo"
+                className="aspect-[4/5] w-full rounded-2xl object-contain"
+              />
+            </div>
 
             <p className="px-2 pb-2 pt-4 text-center text-sm text-[#725c5d]">
               Simple style. Endless summer plans.
@@ -119,7 +126,7 @@ export default function SunsetProductContent() {
 
       {/* Benefits */}
       <section
-        id="details"
+        id="the-details"
         className="mx-auto max-w-7xl px-6 py-20 md:px-12 md:py-28"
       >
         <div className="max-w-2xl">
